@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+  background-color: black;
+  
+    width: 100%;
+    height: 100%;
+}
+nav{
+    display: flex;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+  padding-left: 20px;
+   background-color:black;
+   justify-content: space-around;
+   gap: 60px;
+   align-items: center;
+}
+nav ul  {
+   
+   display: flex;
+    
+    gap: 20px;
+    list-style: none;
+   font-size: 20px;
+   color: darkgrey;
+ 
+   
+    
+}
+
+ nav li:hover{
+cursor: pointer;
+color: rgb(25, 211, 35);
+
+
+}
+nav  img{
+    width: 300px;
+    height: 100px;
+mix-blend-mode: lighten;
+    
+}
+nav span{
+    
+    background-color: rgb(25, 211, 108);
+    font-family: 'Palatino';
+    font-size: 25px;
+    font-weight: bold;
+    align-items: end;
+
+    padding: 10px ;
+    border-radius: 5px 25px 25px 25px;
+    margin-right: 10px;
+}
+nav h1{
+    color: aliceblue;
+    font-family: 'Palatino';
+   padding-left: 50px;
+   gap: 15px;
+    font-size:20px ;
+    
+   
+}
+nav h1 span{
+  background-color: black;
+  font-size: 20px;
+}
+div.ashesh {
+    display: inline;
+    width:90%;
+    overflow: auto;
+  }
+  div #ash {
+ background-color:black;
+   
+   padding-left: 100px;
+   padding-right: 100px;
+  height: 600px;
+  width: 900px;
+ 
+
+border:  100px solid rgb(12, 11, 11);
+
+    
+  }
+  div.ashesh div{
+
+   
+    float: left;
+  }
+  
+  
+  div{
+    height: 50%;
+    
+  }
+  div h3{
+    font-size: 100px;
+    margin:10px ;
+    color: rgb(25, 214, 108);
+  }
+  div #ashe{
+    background-image: url("logo.jpg"); 
+    
+    background-size:contain ;
+     
+  }
+div h2 img{
+  height:650px ;
+  width:390px ;
+}
+div h4{
+  display: flex;
+  background-color: rgb(25, 211, 108);
+    
+    color: black;
+    font-size: 23px;
+    width: 270px;
+    height:60px ;
+font-family: 'Palatino';
+    padding: 15px;
+    border-radius: 30px ;
+    margin: 20px;
+    margin-top: 40px;
+    align-content:  center;
+    gap: 15px ;
+}
+div  p{
+  color: rgb(25, 211, 108);
+font-family: 'Baskerville';
+
+}
